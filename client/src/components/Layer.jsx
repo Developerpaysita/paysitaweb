@@ -10,6 +10,7 @@ const Layer = () => {
             <div className='layer'>
                 <Container>
                     <Row>
+                        
                         <Col md={4} className="mb-4">
                             <Card bg="transparent" style={{ border: 'none', color: "white" }}>
                                 <Card.Img variant="top" src={clock} style={{ width: '50px', height: '50px' }} className="mx-auto" />
