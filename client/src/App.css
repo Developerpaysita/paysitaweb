@@ -1,0 +1,57 @@
+.naver{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.bread{
+  display: flex;
+  height: 70vh;
+  padding: 20px;
+  
+}
+
+.bread-left{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.bread-left h1, .bread-left span{
+  font-size: 50px;
+  font-weight: 900px;
+  margin-top: 10vh;
+  text-align: center;
+}
+.bread-left h1 span{
+  color:#ffde59
+}
+.bread-left img{
+  height: 50px;
+  width: 250px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.bread-right{
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  text-align: center;
+}
+
+.bread-right img{
+  height: 68vh;
+}
+
+
+/* layers  */
+.layer{
+  display: flex;
+  padding-top: 30px;
+  background-color: #212121;
+}
+
