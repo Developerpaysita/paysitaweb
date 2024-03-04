@@ -19,7 +19,7 @@
 
 .bread {
   display: flex;
-  height: 70vh;
+  height: auto;
   padding: 20px;
 }
 
