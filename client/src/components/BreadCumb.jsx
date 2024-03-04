@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
 import johnx from '../assets/img/dash.png';
-import apple from '../assets/img/apple.png';
-import play from '../assets/img/play.png';
-
+import appx from '../assets/img/apple.png';
+import play from '../assets/img/play_black.png';
 
 const BreadCumb = () => {
   return (
@@ -15,19 +14,16 @@ const BreadCumb = () => {
           </h1>
           <p className='py-5'>Where Your Money Meets Innovation!</p>
           <div className='row d-flex mt-2 mx-0'>
-          
-                            <img
-                                src={apple}
-                                style={{ width: "142px", height: "44px" }}
-                                className='mb-3'
-                                alt='eleana'
-                                />
-                            <img
-                                src={play}
-                                className='mb-3'
-                                style={{ width: "142px", height: "44px" }}
-                                alt='eleana'
-                            />
+            <img
+              src={appx}
+              style={{ width: "100px", height: "40px", marginLeft:'0px' }}
+              alt='eleana'
+            />
+            <img
+              src={play}
+              style={{ width: "100px", height: "40px" }}
+              alt='eleana'
+            />
 
             <div className='row mt-5'>
               <div className=' col-md-4'>
