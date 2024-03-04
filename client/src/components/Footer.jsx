@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Nav, Navbar } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import logo from "../assets/img/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faKiwiBird, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
@@ -56,19 +56,15 @@ const Footer = () => {
 
             {/* Navigation List */}
             <hr style={{ color: 'white' }} />
-            <Navbar expand="lg">
-                <Container>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ml-auto">
-                            <Nav.Link href="#" style={{ color: 'white' }}>Home</Nav.Link>
-                            <Nav.Link href="#" style={{ color: 'white' }} >About</Nav.Link>
-                            <Nav.Link href="#" style={{ color: 'white' }} >Services</Nav.Link>
-                            <Nav.Link href="#" style={{ color: 'white' }} >Contact</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+
+            <div className='container'>
+                <span className='d-flex flex-row footer-link'>
+                    <a href='/' className='text-decoration-none text-white mx-2'> Home</a>
+                    <a href='/about' className='text-decoration-none text-white mx-2 '> About</a>
+                    <a href='/products' className='text-decoration-none text-white mx-2'> Services</a>
+                    <a href='/contact' className='text-decoration-none text-white mx-2'> Contact</a>
+                </span>
+            </div>
         </footer>
     );
 };

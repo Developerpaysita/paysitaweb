@@ -21,10 +21,12 @@ const GetReady = () => {
                             <img
                                 src={apple}
                                 style={{ width: "142px", height: "44px" }}
+                                className='mb-3'
                                 alt='eleana'
-                            />
+                                />
                             <img
                                 src={play}
+                                className='mb-3'
                                 style={{ width: "142px", height: "44px" }}
                                 alt='eleana'
                             />
@@ -32,7 +34,7 @@ const GetReady = () => {
                         </div>
                     </div>
                     <div className='ready-right'>
-                        <div className='row'>
+                        <div className='row mb-2'>
                             <div className='col-md-6'>
                                 <div class="card">
                                     <div class="card-body">
