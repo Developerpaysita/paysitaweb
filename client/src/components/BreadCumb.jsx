@@ -16,12 +16,12 @@ const BreadCumb = () => {
           <div className='row d-flex mt-2 mx-0'>
             <img
               src={appx}
-              style={{ width: "213px", height: "66px", marginLeft:'0px' }}
+              style={{ width: "100px", height: "40px", marginLeft:'0px' }}
               alt='eleana'
             />
             <img
               src={play}
-              style={{ width: "213px", height: "66px" }}
+              style={{ width: "100px", height: "40px" }}
               alt='eleana'
             />
 
