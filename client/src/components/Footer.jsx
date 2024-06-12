@@ -63,6 +63,7 @@ const Footer = () => {
                     <a href='/about' className='text-decoration-none text-white mx-2 '> About</a>
                     <a href='/products' className='text-decoration-none text-white mx-2'> Services</a>
                     <a href='/contact' className='text-decoration-none text-white mx-2'> Contact</a>
+                    <a href='/terms' className='text-decoration-none text-white mx-2'> Terms and Conditions</a>
                 </span>
             </div>
         </footer>

@@ -10,6 +10,7 @@ import Layout from './components/layout';
 import { Route, Routes, useLocation } from "react-router-dom";
 import Privacy from './components/Privacy';
 import Products from './components/Products';
+import Terms from './components/Terms';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
             <Route path="/frequent" element={<Frequent />} />
           </Route>
         </Routes>
