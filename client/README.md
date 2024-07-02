@@ -3,5 +3,5 @@
 # getting started
 
 ```
-cd client and npm start
+cd client and npm start...
 ``` 
